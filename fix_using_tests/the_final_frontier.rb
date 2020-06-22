@@ -11,8 +11,6 @@ generate_star_date
 
 def state_log(generate_star_date)
   "Captain's Log, star date #{generate_star_date}."
-  binding.pry 
-  puts "test 2"
 end
 
 state_log(generate_star_date)
