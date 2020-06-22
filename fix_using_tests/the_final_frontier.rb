@@ -15,7 +15,7 @@ def state_log(generate_star_date)
   puts "test 2"
 end
 
-state_log
+state_log(generate_star_date)
 
 def engage
   puts state_log(date)
