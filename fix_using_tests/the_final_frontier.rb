@@ -9,8 +9,8 @@ end
 
 generate_star_date
 
-def state_log(generate_star_date)
-  messgae = "Captain's Log, star date #{generate_star_date}."
+message = def state_log(generate_star_date)
+  puts "Captain's Log, star date #{generate_star_date}."
 end
 
 state_log(generate_star_date)
