@@ -5,7 +5,7 @@ require "pry"
 def generate_star_date
   x= (rand(100000) + 400000) / 10.0
   binding.pry
-  puts "test 1"
+  x
 end
 
 generate_star_date
